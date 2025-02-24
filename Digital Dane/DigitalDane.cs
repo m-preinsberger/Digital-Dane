@@ -12,6 +12,9 @@ namespace Digital_Dane
         {
             // 1. look/scan
             // 2. aim at nearest enemy
+            // 3. go within reach
+            // 4. attack
+            // 5. repeat
         }
     }
 }
