@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Digital_Dane
 {
-    public class communication
+    public class Communication
     {
     }
 }
