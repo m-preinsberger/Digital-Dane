@@ -17,7 +17,7 @@ namespace Digital_Dane
 
             // API-Key und Basis-URL festlegen.
             string apiKey = "b681e1c7-aa00-47d1-b37c-229b6ac34a97";
-            string baseUrl = "game-dd.countit.at";
+            string baseUrl = "https://game-dd.countit.at";
 
             logger.LogInformation("Initialisiere GameApiClient mit API-Key {ApiKey}", apiKey);
             var gameApiClient = new GameApiClient(baseUrl, apiKey, loggerFactory.CreateLogger<GameApiClient>());
